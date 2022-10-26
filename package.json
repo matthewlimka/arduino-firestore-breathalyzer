@@ -1,0 +1,20 @@
+{
+    "name": "arduino-firestore-breathalyzer",
+    "description": "Sending alcohol values from MQ3 sensor on Arduino MKR WiFi 1010 board to node.js that is subsequently stored in Firestore database.",
+    "version": "1.0.0",
+    "author": "Matthew Lim",
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "firebase": "^9.12.1",
+        "firebase-admin": "^11.2.0",
+        "serialport": "^10.4.0"
+    }
+}
